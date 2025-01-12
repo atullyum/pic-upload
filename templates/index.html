@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, Flask!</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<form action="/edit" method="post" enctype="multipart/form-data">
+     <div style="text-align: center;">
+    <h1>Welcome to the Flask App</h1>
+    <p>This is a simple Flask application.</p>
+<div class="pic">
+  <label for="formFile" class="form-label">select a image to edit</label>
+  <input class="form-control" type="file" name="file" id="formFile">
+
+</div>
+<div class="form-floating">
+  <select name="operation " class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Open this select menu</option>
+    <option value="png">to png </option>
+    <option value="gray">to grayscale</option>
+    <option value="webp">to webp</option>
+  </select>
+  <label for="floatingSelect">Works with selects</label>
+
+</div>
+          <button type="submit"  class = "btn btn-success">submit</button>
+    </form>
+</body>
+</html>

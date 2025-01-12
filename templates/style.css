@@ -1,0 +1,9 @@
+/* style.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically as well */
+  margin: 50px; /* Add 50px margin around the container */
+  height: 100vh; /* Optional: Make container fill the viewport height */
+}
